@@ -1,3 +1,5 @@
+//_.each calls a function on every value in a collection in turn.
+
 function _.each(list, iterator, [context]){
   if (list == null){  		                     //checks if list is empty and returns it if it is
     return list;
