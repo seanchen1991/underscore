@@ -10,4 +10,4 @@ function _.each(list, iterator){
       iterator(list[key], key, list);
     }
   }
-};
+}
